@@ -3,3 +3,9 @@ Copy text to OS clipboard when using Jupyter remotely. This uses the web browser
 own clipboard via Javascript.
 
 Originally a gist on github but got tired of copy pasting it into each notebooks.
+
+## Installation
+
+```bash
+$ poetry add git+https://github.com/bsdz/jupyter_browser_clipboard.git#main
+```
