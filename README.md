@@ -9,3 +9,12 @@ Originally a gist on github but got tired of copy pasting it into each notebooks
 ```bash
 $ pip install git+https://github.com/bsdz/jupyter_browser_clipboard.git#main
 ```
+
+## Usage
+
+```python
+>>> from jupyter_browser_clipboard import BrowserClipboard
+>>> df = pd.DataFrame(data=[1,2,3,5,6, 101])
+>>> BrowserClipboard(df.to_csv(sep="\t"))
+Copying text to browser's clipboard.. success!
+```
