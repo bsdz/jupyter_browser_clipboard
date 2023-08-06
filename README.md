@@ -7,6 +7,12 @@ Originally a gist on github but got tired of copy pasting it into each notebooks
 ## Installation
 
 ```bash
+$ pip install jupyter_browser_clipboard
+```
+
+Or, alternatively,
+
+```bash
 $ pip install git+https://github.com/bsdz/jupyter_browser_clipboard.git#main
 ```
 

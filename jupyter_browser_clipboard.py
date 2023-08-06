@@ -15,6 +15,7 @@ class BrowserClipboard(HTML):
     """
 
     def _repr_html_(self):
+        self.data = self.data.replace("`", "\`")
         return f"""
         Copying text to browser's clipboard.. <span id='foo'></span>
         <script type="text/Javascript">
